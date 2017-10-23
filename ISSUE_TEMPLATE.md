@@ -1,16 +1,6 @@
 ## General Support
 
-If you're looking for general support, please utilize our Slack community channel [https://3bladescommunity.slack.com/) rather than GitHub Issues. (You can sign up [here](https://slackin-pypmyuhqds.now.sh/) if you haven't done so).
-
-## New Issue Check List for Fixes
-
-Use the following check list to make sure your issue is opened properly.
-
-- [ ] I have documented what installation method was used, such as Docker, as well as other relevant configuration settings.
-- [ ] I have checked 3blades logs for python stacktraces and included it here as text if any.
-- [ ] I have reproduced the issue with the latest released version of 3Blades.
-- [ ] I searched for open and closed issues for a similar one, but did not see any.
-- [ ] I have documented expected result, actual result and steps to reproduce error.
+If you're looking for general support, please utilize our [Slack Community channel](https://3bladescommunity.slack.com). You can sign up [here](https://slack.3blades.io/) if you haven't done so,
 
 ## New Issue Check List for Features
 
@@ -20,4 +10,4 @@ It's possible that if we add your new issue to our backlog that we merge the iss
 
 ## Contributing
 
-If you would rather submit your own PR, please follow our [contributing guide](https://github.com/3Blades/app-backend/blob/master/CONTRIBUTING.md).
+If you would rather submit your own PR, please follow our [contributing guide](https://github.com/3Blades/opensource/blob/master/CONTRIBUTING.md).

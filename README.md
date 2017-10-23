@@ -6,8 +6,10 @@ This is the 3Blades docs repo. Docs are managed with [Mkdocs](http://www.mkdocs.
 
 There are two options available to use 3Blades:
 
-- [Online](https://3blades.io): free signup and no credit card required.
+- [Online](https://3blades.io): cloud version with free trial period. No credit card required.
 - [On-premises](https://github.com/3blades/onpremise): free community version available. Pro version adds more goodies and support services.
+
+And yes, 3Blades is open source, **BSD 3-Clause** licensed!
 
 ## Docs Setup
 
@@ -27,20 +29,21 @@ There are two options available to use 3Blades:
 
     git remote add upstream https://github.com/3blades/docs
 
-
     > Sync upstream master with your fork using `git fetch upstream master` and `git merge upstream/master` to avoid merge conflicts.
 
 5. Test site locally:
 
     mkdocs serve
 
-6. PRs and merges to upstream master trigger a deploy to `https://docs.3blades.io`
+6. Push to your fork and create PR
+
+7. Merges to upstream master trigger a deploy to `https://docs.3blades.io`
 
 
 ## Documentation
 
 - [Community](https://slack.3blades.io)
-- [Issue tracking](https://github.com/3Blades/3blades/issues)
+- [Issue tracking](https://github.com/3Blades/docs/issues)
 - [Documentation](https://docs.3blades.io/)
 
 ## Copyright and license

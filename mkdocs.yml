@@ -2,8 +2,8 @@ site_name: 3Blades
 site_name: 3Blades Documentation
 site_url: https://3blades.io
 site_author: 3Blades Team
-repo_name: 3blades/3blades
-repo_url: 'https://github.com/3blades/3blades'
+repo_name: 3blades/docs
+repo_url: 'https://github.com/3blades/docs'
 edit_uri: edit/master/docs
 google_analytics:
   - 'UA-63775134-4'
@@ -21,7 +21,7 @@ pages:
       - 'API Link': 'advanced-topics/api_authentication.md'
       - 'Streaming Logs': 'advanced-topics/server_logs.md'
       - 'Security': 'advanced-topics/security.md'
-  - ClI Tools:
+  - CLI Tools:
       - 'Introduction': 'cli-tools/introduction.md'
   - On Premises:
       - 'Overview': 'on-premises/overview.md'
@@ -76,4 +76,4 @@ extra_css:
 site_favicon: 'img/favicon.ico'
 site_author: 3Blades Team
 site_description: 3Blades documentation portal
-copyright: Copyright &copy; 2017, 3Blades
+copyright: Copyright &copy; 2017, 3Blades, LLC

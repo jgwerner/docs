@@ -4,7 +4,6 @@ Account settings allow users to edit their account. Options to update in Account
 - Settings
 - Emails
 - SSH Keys
-- Integrations
 
 ## Profile
 

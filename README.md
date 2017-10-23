@@ -2,16 +2,40 @@
 
 # 3Blades
 
-This is the 3Blades meta repo for installation. Docs are managed with [Readme.io](https://readme.io).
+This is the 3Blades docs repo. Docs are managed with [Mkdocs](http://www.mkdocs.org/).
 
-3Blades was born to **accelerate modern data science**. Import data, use Notebook servers for exploratory data analysis, create visualizations and publish trained machine and deep learning models as RESTful endpoints in their native languages. All from one location!
-
-There are two options available:
+There are two options available to use 3Blades:
 
 - [Online](https://3blades.io): free signup and no credit card required.
 - [On-premises](https://github.com/3blades/onpremise): free community version available. Pro version adds more goodies and support services.
 
-And yes, 3Blades is open source, **BSD** licensed!
+## Docs Setup
+
+1. Fork this repo
+2. Clone and cd into your fork
+
+    git clone https://github.com/<github_account_name>/docs
+    cd docs
+
+3. To setup docs clone this repo and install requirements. We recommend using [virtualenv](https://virtualenv.pypa.io/en/stable/):
+
+    virtualenv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+
+4. (Optional) Add remote upstream
+
+    git remote add upstream https://github.com/3blades/docs
+
+
+    > Sync upstream master with your fork using `git fetch upstream master` and `git merge upstream/master` to avoid merge conflicts.
+
+5. Test site locally:
+
+    mkdocs serve
+
+6. PRs and merges to upstream master trigger a deploy to `https://docs.3blades.io`
+
 
 ## Documentation
 

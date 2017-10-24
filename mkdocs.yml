@@ -1,0 +1,79 @@
+site_name: 3Blades
+site_name: 3Blades Documentation
+site_url: https://3blades.io
+site_author: 3Blades Team
+repo_name: 3blades/docs
+repo_url: 'https://github.com/3blades/docs'
+edit_uri: edit/master/docs
+google_analytics:
+  - 'UA-63775134-4'
+  - 'docs.3blades.io'
+pages:
+  - Home: index.md
+  - Getting Started:
+      - 'Create Your First Project': 'getting-started/create_your_first_project.md'
+      - 'Manage Account Settings': 'getting-started/manage_account_settings.md'
+      - 'Manage Notebook Servers': 'getting-started/manage_notebook_servers.md'
+      - 'Project Collaborators': 'getting-started/project_collaborators.md'
+      - 'Manage Server States': 'getting-started/manage_server_states.md'
+  - Advanced Topics:
+      - 'Server Environment Variables': 'advanced-topics/server_environment_variables.md'
+      - 'API Link': 'advanced-topics/api_authentication.md'
+      - 'Streaming Logs': 'advanced-topics/server_logs.md'
+      - 'Security': 'advanced-topics/security.md'
+  - CLI Tools:
+      - 'Introduction': 'cli-tools/introduction.md'
+  - On Premises:
+      - 'Overview': 'on-premises/overview.md'
+      - 'Preparation': 'on-premises/preparation.md'
+      - 'Installation': 'on-premises/installation.md'
+      - 'Configuration': 'on-premises/configuration.md'
+theme: material
+# Extensions recommended by docs (http://squidfunk.github.io/mkdocs-material/)
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+extra:
+  logo: 'img/tbs_icon.png'
+  palette:
+    primary: 'orange'
+    accent: 'blue'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  social:
+    - type: 'github'
+      link: 'https://github.com/3blades'
+    - type: 'twitter'
+      link: 'https://twitter.com/3bladesio'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/3blades'
+    - type: 'slack'
+      link: 'https://slack.3blades.io/'
+extra_css:
+    - css/extra_css.css
+    - css/style.css
+site_favicon: 'img/favicon.ico'
+site_author: 3Blades Team
+site_description: 3Blades documentation portal
+copyright: Copyright &copy; 2017, 3Blades, LLC

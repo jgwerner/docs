@@ -1,0 +1,4 @@
+Additional configuration options are available and, for the most part, managed by editing the environment variables. When installing with the `ansible playbook`, these environment variables are set using [global variables](https://github.com/3Blades/onpremise/tree/master/group_vars). Thus, these environment variables may be set via the following options:
+
+1. Add global environment variables when running ansible playbook using the `--e` flag. This is the recommended option when setting environment variables that may have sensitive information, such as the application's `SECRET_KEY`, which is set with ansible's `secret_key` key.
+2. Modify environment variables within ansible's group variables file. These variables have global scope and are used to modify the [environment variables template](https://github.com/3Blades/onpremise/blob/master/roles/artifacts/templates/env.j2).

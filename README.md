@@ -1,15 +1,10 @@
-[![slack in](https://slack.3blades.io/badge.svg)](https://slack.3blades.io)
+# IllumiDesk
 
-# 3Blades
-
-This is the 3Blades docs repo. Docs are managed with [Mkdocs](http://www.mkdocs.org/).
+This is the IllumiDesk docs repo. Docs are managed with [Mkdocs](http://www.mkdocs.org/).
 
 There are two options available to use 3Blades:
 
-- [Online](https://3blades.io): cloud version with free trial period. No credit card required.
-- [On-premises](https://github.com/3blades/onpremise): free community version available. Pro version adds more goodies and support services.
-
-And yes, 3Blades is open source, **BSD 3-Clause** licensed!
+- [IllumiDesk](https://illumidesk.com) is available online with a free trial period. No credit card required.
 
 ## Docs Setup
 
@@ -27,7 +22,7 @@ And yes, 3Blades is open source, **BSD 3-Clause** licensed!
 
 4. (Optional) Add remote upstream
 
-    git remote add upstream https://github.com/3blades/docs
+    git remote add upstream https://github.com/illumidesk/docs
 
     > Sync upstream master with your fork using `git fetch upstream master` and `git merge upstream/master` to avoid merge conflicts.
 
@@ -37,14 +32,12 @@ And yes, 3Blades is open source, **BSD 3-Clause** licensed!
 
 6. Push to your fork and create PR
 
-7. Merges to upstream master trigger a deploy to `https://docs.3blades.io`
-
+7. Merges to upstream master trigger a deploy to `https://docs.illumidesk.com`
 
 ## Documentation
 
-- [Community](https://slack.3blades.io)
-- [Issue tracking](https://github.com/3Blades/docs/issues)
-- [Documentation](https://docs.3blades.io/)
+- [Issue tracking](https://github.com/illumidesk/docs/issues)
+- [Documentation](https://docs.illumidesk.com/)
 
 ## Copyright and license
 

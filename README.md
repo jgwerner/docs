@@ -2,7 +2,7 @@
 
 This is the IllumiDesk docs repo. Docs are managed with [Mkdocs](http://www.mkdocs.org/).
 
-There are two options available to use 3Blades:
+There are two options available to use IllumiDesk:
 
 - [IllumiDesk](https://illumidesk.com) is available online with a free trial period. No credit card required.
 
